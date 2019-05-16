@@ -14,7 +14,7 @@
 
 # Inherit some common stuff.
 
-$(call inherit-product, vendor/aosip/config/common_mini_tablet_wifionly.mk)
+(call inherit-product, vendor/aosip/config/common.mk)
 
 $(call inherit-product, device/asus/flo/razor.mk)
 
